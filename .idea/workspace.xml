@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4383fc17-4d6e-46f6-b3ab-a769160b5c36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/KataTDD/conjunto.py" beforeDir="false" afterPath="$PROJECT_DIR$/KataTDD/conjunto.py" afterDir="false" />
-    </list>
+    <list default="true" id="4383fc17-4d6e-46f6-b3ab-a769160b5c36" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
