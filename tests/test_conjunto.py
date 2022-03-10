@@ -1,5 +1,5 @@
 import unittest
-from KataTDD.conjunto import Conjunto
+from src.conjunto import Conjunto
 
 class TestConjunto(unittest.TestCase):
 

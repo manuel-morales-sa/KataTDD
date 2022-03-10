@@ -1,5 +1,5 @@
 import unittest
-from KataTDD.mejora import Mejora
+from src.mejora import Mejora
 
 class TestMejora(unittest.TestCase):
 
