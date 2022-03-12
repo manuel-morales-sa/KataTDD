@@ -3,12 +3,19 @@
 name: Pruebas unitarias
 on:
   push:
-    branches: [ master ]
+    branches:
+      - 'feature**'
 jobs:
   job1:
     name: Pruebas
     runs-on: ubuntu-latest
+    if: ${{ contains(github.event.head_commit.message, 'Deploy:') }}
     steps:
+    - uses: manuel-morales-sa/KataTDD@master
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        source-branch: master
+        target-branch: develop
     - name: Checkout de repositorio
       uses: actions/checkout@v2
     - name: Configuración de entorno de python
